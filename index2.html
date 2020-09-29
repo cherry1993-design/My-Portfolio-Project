@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!--CSS File-->
+    <link rel="stylesheet" href="/mystyle.css">
+
+    <title>My Resume</title>
+</head>
+
+<body>
+    <div class="main_div">
+        <div class="buttons">
+            <a href="#" onclick="toggleVisibility('Menu1');">About me</a>
+            <a href="#" onclick="toggleVisibility('Menu2');">Contact me</a>
+            <a href="#" onclick="toggleVisibility('Menu3');">Skills</a>
+            <a href="#" onclick="toggleVisibility('Menu4');">Qualification</a>
+        </div>
+        <div class="inner_div">
+            <div id="Menu1">
+                <img src="/img/team1.jpg" alt="">
+                <section>
+
+                    <p>Hello Everybody, i am</p>
+                    <h1>Chanchal Shivpure </h1>
+                    <p><i class="far fa-calendar-alt"></i> 4th september 1993</p>
+                    <p><i class="fas fa-phone-volume"></i> +(91) 9691379320</p>
+                    <p><i class="fas fa-envelope"></i> chanchalshivpurey1992@gmail.com</p>
+                    <p><i class="fas fa-home"></i> Dewas M.P.</p>
+                </section>
+            </div>
+            <div id="Menu2" style="display: none;">
+
+                <div class="social">
+                    <a href=""><i class="fab fa-facebook-square"></i> Facebook</a>
+                    <a href=""><i class="fab fa-github"></i> Github</a>
+                    <a href=""><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href=""><i class="fab fa-linkedin"></i> Linkedin</a>
+                </div>
+            </div>
+            <div id="Menu3" style="display: none;">
+                <ul>
+                    <li> <i class="fab fa-html5"></i> HTML</li>
+                    <li> <i class="fab fa-css3-alt"></i> CSS</li>
+                    <li> <i class="fab fa-js-square"></i> JavaScript(Basics)</li>
+                    <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+                </ul>
+            </div>
+            <div id="Menu4" style="display: none;">
+                
+                <table>
+                    <thead>
+                        <tr>
+                        <th>Qualification</th>
+                        <th>Board/University</th>
+                        <th>Percentage</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>M.C.A</td>
+                            <td>R.G.P.V.</td>
+                            <td>7.8(CGPA) </td>
+                        </tr>
+                        <tr>
+                            <td>B.C.A</td>
+                            <td>Vikram University</td>
+                            <td>78.00%</td>
+                        </tr>
+                        <tr>
+                            <td>Higher Secondary</td>
+                            <td>M.P. Board</td>
+                            <td>74.00%</td>
+                        </tr>
+                        <tr>
+                            <td>High School</td>
+                            <td>M.P. Board</td>
+                            <td>56.00%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS File -->
+    <script src="/script.js"></script>
+</body>
+
+</html>

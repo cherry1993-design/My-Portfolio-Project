@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bgColor1 : #080910;
+    --bgColor2 : #343863;
+    --fontColor : #FD9E41;
+    --fontColor1 : #E2E3E7;
+    --fontColor2 : #A4A7B0;
+}
+
+/*------- this is body -----*/
+
+body{
+    background: linear-gradient(110deg, var(--bgColor1), var(--bgColor2)) ;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ /*---------- main div -----------*/
+.main_div {
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   max-width: 60%;
+   max-height: 50%;
+    box-shadow: 2px 3px 13px 0px rgba(0,0,0,0.75);
+}
+
+.inner_div {
+    background: var(--bgColor2);
+    margin-top: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.buttons a {
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 30px;
+    color: var(--fontColor);
+}
+
+.buttons a:hover {
+    cursor: pointer;
+    color: var(--fontColor2) !important;
+    
+}
+
+/*------------- Menu1-----------------*/
+
+
+#Menu1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+}
+#Menu1 img{
+   padding: 10px;
+    
+}
+#Menu1 section{
+    padding: 10px;
+    line-height: 1.5rem;
+    
+}
+#Menu1 section p {
+    text-transform: capitalize;
+    color: var(--fontColor2);
+}
+#Menu1 section h1 {
+    text-transform: capitalize;
+    color: var(--fontColor);
+}
+ /*---------------- Menu2 ------------*/
+
+
+ #Menu2 .social a{
+     display: block;
+     line-height: 2.5rem;
+    color: var(--fontColor);
+    text-decoration: none;
+ }
+
+ /*---------------- Menu3 ------------*/
+
+ #Menu3 ul{
+     cursor: pointer;
+     list-style-type: none;
+     line-height: 1.5rem;
+     color: var(--fontColor);
+ }
+
+ /*---------------Menu4 ---------------*/
+
+ #Menu4 {
+     display: flex;
+    
+ }
+ 
+#Menu4 table{
+    color:  var(--fontColor);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    line-height: 1.5rem;
+    width: 100%;
+    height: 50px;
+    
+    
+}
